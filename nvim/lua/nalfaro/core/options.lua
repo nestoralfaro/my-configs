@@ -1,7 +1,7 @@
 local opt = vim.opt
 
 -- for cursor highlight
-opt.updatetime = 1
+-- opt.updatetime = 1
 
 -- line numbers
 opt.relativenumber = true
