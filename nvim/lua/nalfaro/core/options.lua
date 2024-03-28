@@ -3,6 +3,8 @@ local opt = vim.opt
 -- for cursor highlight
 -- opt.updatetime = 1
 
+-- set formatoptions-=cro # disable autocommenting on new line
+
 -- keep cursor block in all modes
 opt.guicursor = "n-v-c-i:block"
 
