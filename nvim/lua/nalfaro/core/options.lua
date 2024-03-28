@@ -3,6 +3,9 @@ local opt = vim.opt
 -- for cursor highlight
 -- opt.updatetime = 1
 
+-- keep cursor block in all modes
+opt.guicursor = "n-v-c-i:block"
+
 -- line numbers
 opt.relativenumber = true
 opt.number = true
